@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تواصل معنا - تعلم الحاسوب</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <span>تعلم الحاسوب</span>
+        <i class="fas fa-laptop-code"></i>
+      </div>
+      <nav>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html"><i class="fas fa-home"></i> الرئيسية</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> من نحن</a></li>
+          <li><a href="os.html"><i class="fas fa-desktop"></i> أنظمة التشغيل</a></li>
+          <li><a href="keyboard-mouse.html"><i class="fas fa-keyboard"></i> لوحة المفاتيح والفأرة</a></li>
+          <li><a href="internet.html"><i class="fas fa-globe"></i> أساسيات الإنترنت</a></li>
+          <li><a href="contact.html"><i class="fas fa-envelope"></i> تواصل معنا</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="contact-section">
+      <h1 class="section-title">تواصل معنا</h1>
+      
+      <div class="grid" style="gap: 2rem;">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">بيانات الاتصال</h3>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>info@learn-computer.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span> 781069202 967+</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>صنعاء، اليمن</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-clock"></i>
+                <span>الأحد - الخميس: 8 صباحًا - 4 مساءً</span>
+              </div>
+            </div>
+            
+            <div class="social-contact" style="margin-top: 2rem;">
+              <h4>وسائل التواصل الاجتماعي</h4>
+              <div class="social-icons" style="display: flex; gap: 15px; margin-top: 1rem;">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://wa.me/967781069202" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">أرسل لنا رسالة</h3>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">الاسم الكامل</label>
+                <input type="text" id="name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">الموضوع</label>
+                <input type="text" id="subject" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="message">الرسالة</label>
+                <textarea id="message" class="form-control" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">إرسال الرسالة</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 2rem;">
+        <div class="card-body">
+          <h3 class="card-title">الأسئلة الشائعة</h3>
+          <div class="faq">
+            <div class="faq-item">
+              <button class="faq-question">كيف يمكنني الاشتراك في الدورات؟</button>
+              <div class="faq-answer">
+                <p>يمكنك التسجيل في أي دورة من خلال صفحة الدورة ثم النقر على زر "اشتراك الآن" ومتابعة خطوات الدفع.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">هل الدورات مجانية أم مدفوعة؟</button>
+              <div class="faq-answer">
+                <p>نقدم كلا النوعين، بعض الدورات الأساسية مجانية، بينما الدورات المتقدمة تكون مدفوعة.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">كيف أحصل على شهادة بعد إكمال الدورة؟</button>
+              <div class="faq-answer">
+                <p>بعد إكمال جميع دروس الدورة واجتياز الاختبار النهائي، يمكنك تحميل شهادتك مباشرة من لوحة التحكم.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <button id="toTop"><i class="fas fa-arrow-up"></i></button>
+
+  <footer>
+    <div class="footer-content">
+      <!-- نفس تذييل الصفحة كما في index.html -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
